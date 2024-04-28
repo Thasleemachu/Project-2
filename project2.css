@@ -1,0 +1,134 @@
+
+.banner{
+    min-height: 500px;
+    background-image: url(image/sergey-kotenev-ZKv9WGWMOLk-unsplash.jpg);
+    background-size: cover;
+    color: azure;
+    
+}
+
+.banner1{
+    background-image: url(image/jason-leung-poI7DelFiVA-unsplash.jpg);
+    background-size: cover;
+    color: aliceblue;
+    background-position-y: center;
+}
+.cat{
+    background-image: url(image/denise-chan-IyH6ePGolyc-unsplash.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+.inbox{
+    padding: 10px;
+}
+.inbox1{
+    margin: 150px 0px;
+    text-align: center;
+}
+.inbox1 h1{
+    font-size: 100px;
+}
+.inbox2{
+    text-align: center;
+    margin: 50px 0px;
+    padding: 50px;
+    color: white;
+    font-family: Mistral;
+    font-size: 40px;
+}
+.quote{
+    background-color: black;
+}
+.quote1{
+    font-family: Mistral;
+    font-size: 40px;
+}
+.inbox3{
+    text-align: center;
+    margin: 50px 0px;
+    padding: 50px;
+}
+.inbox4{
+    text-align: center;
+    margin: 50px 0px;
+    padding: 50px;
+}
+.inbox5{
+    margin: 50px 0px;
+}
+.banner2{
+    background-image: url(image/pretty-drugthings-YoyM3DiCgkY-unsplash.jpg);
+    background-size: cover;
+    color: aliceblue;
+    background-position-y: center
+}
+.banner3{
+    background-image: url(image/blake-wisz-Qg8G7PSXt4A-unsplash.jpg);
+    background-size: cover;
+    color: aliceblue;
+    background-position-y: center
+}
+.quote2{
+    background-image: url(image/fam.jpg);
+    background-size: cover;
+    background-position-y: 70%;
+    color: aliceblue;
+    font-family: Mistral;
+    font-size: 30px;
+}
+.banner4{
+    background-image: url(image/pylyp-sukhenko-y-XZf_TNRms-unsplash.jpg);
+    background-size: cover;
+    color: aliceblue;
+    background-position-y: center
+}
+.banner5{
+    background-color: black;
+    color: white;
+}
+
+@media(max-width:769px){
+    .tab{
+        font-size: 7px;
+    }
+    .inbox1 h1{
+        font-size: 40px;
+    }
+    .inbox4{
+        text-align: center;
+        margin: 20px 0px;
+        padding: 20px;
+    }
+    .quote2{
+        background-size: cover;
+        font-size: 20px;
+    }
+}
+@media(max-width:460px){
+    .inbox1 h1{
+        font-size: 30px;
+    }
+    .inbox1 h3{
+        font-size: 20px;
+    }
+    .inbox1{
+        font-size: 2px;
+    }
+    .inbox2{
+        font-size: 20px;
+    }
+    .inbox3{
+        font-size: 20px;
+    }
+    .inbox4{
+        font-size: 20px;
+    }
+    .inbox5{
+        font-size: 10px;
+    }
+    .inbox5 h3{
+        font-size: 20px;
+    }
+
+
+}
